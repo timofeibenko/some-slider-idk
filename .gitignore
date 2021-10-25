@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+/.idea/vcs.xml
+/.idea/not-so-fancy-slider.iml
+/.idea/modules.xml
+/.idea/.gitignore
