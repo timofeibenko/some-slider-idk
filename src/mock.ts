@@ -11,6 +11,10 @@ const SLIDER_OPTIONS = [
     description: '3',
     content: '#4e88af',
   },
+  {
+    description: '4',
+    content: '#a04eaf',
+  },
 ];
 
 export { SLIDER_OPTIONS };
