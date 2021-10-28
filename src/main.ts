@@ -12,9 +12,9 @@ const sliderContentArr = SLIDER_OPTIONS.map((option) => option.content).reverse(
 (document.querySelector<HTMLDivElement>('#slider-container')!).innerHTML = `
   <div class="slide-description-wrap" style="height: calc(${SLIDER_OPTIONS.length} * 100vh);">
     ${sliderDescriptionArr
-      .map((descr) => {
+      .map((descr, i) => {
         return `
-                <div class="slide-description">${descr}</div>
+                <div class="slide-description" style="color: ${SLIDER_OPTIONS[i].content}">${descr}</div>
               `;
       })
       .join('')
